@@ -29,6 +29,7 @@ flutter analyze
 ```flutter
 https://pub.dev/
 ```
+<br>
 
 ### Install a package in `pubspec.yaml` by name
 
