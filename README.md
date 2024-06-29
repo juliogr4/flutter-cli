@@ -1,64 +1,64 @@
 # FLUTTER CLI
 
-### check flutter current version
-```
+### Check Flutter current version
+```flutter
 flutter --version
 ```
 
-### see all flutter commands
-```
+### See all Flutter commands
+```flutter
 flutter --help --verbose
 ```
 
-### create a flutter project
+### Create a Flutter project
 ```flutter
 flutter create <project_name>
 ```
 
-### find issues
-```flutter
-flutter analyze
-```
-
-### flutter packages repository
-```flutter
-https://pub.dev/
-```
-
-### install package
-
-| on | command |
-| :--: | :-------: |
-| dependency | flutter pub add `<package_name>` |
-| dev dependency | flutter pub add -d `<package_name>` |
-<br>
-
-### remove a package in `pubspec.yaml`
-```
-flutter pub remove <package_name>
-```
-
-### project testing
-```
-flutter test
-```
-
-### run flutter project
+### Run flutter project
 ```
 flutter run ./lib/main.dart
 ```
 
-### Install dependencies added manually in `pubspec.yaml`
+### Find issues
+```flutter
+flutter analyze
 ```
+
+### Flutter packages repository
+```flutter
+https://pub.dev/
+```
+
+### Install a package in `pubspec.yaml` by name
+
+| on | command |
+| :--: | :-------: |
+| dependency | `flutter pub add <package_name>` |
+| dev dependency | `flutter pub add -d <package_name>` |
+<br>
+
+### Install packages added manually in `pubspec.yaml`
+```flutter
 flutter pub get
 ```
 
-### list every outdated dependencies
+### Remove a package in `pubspec.yaml`
+```flutter
+flutter pub remove <package_name>
 ```
+
+### Project testing
+```flutter
+flutter test
+```
+
+### List every outdated dependencies
+```flutter
 flutter pub outdated
 ```
 
-### update all dependencies to their latest versions
-```
+### Update all dependencies to their latest versions
+```flutter
 flutter pub upgrade
 ```
