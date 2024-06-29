@@ -20,19 +20,20 @@ flutter create <project_name>
 flutter analyze
 ```
 
-### flutter package repository
+### flutter packages repository
 ```flutter
 https://pub.dev/
 ```
 
-### install a packages
+### install package
 
 | on | command |
 | :--: | :-------: |
-| dependency | flutter pub add <package_name> |
-| dev dependency | flutter pub add -d <package_name> |
+| dependency | flutter pub add `<package_name>` |
+| dev dependency | flutter pub add -d `<package_name>` |
+<br>
 
-### remove package
+### remove a package in `pubspec.yaml`
 ```
 flutter pub remove <package_name>
 ```
@@ -47,7 +48,7 @@ flutter test
 flutter run ./lib/main.dart
 ```
 
-### install new dependencies on pubspec.yaml
+### Install dependencies added manually in `pubspec.yaml`
 ```
 flutter pub get
 ```
